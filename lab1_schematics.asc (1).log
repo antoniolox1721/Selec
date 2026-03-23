@@ -1,0 +1,270 @@
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(2): Expected 2 node names here.
+SHEET 1 1608 680
+            ^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(63): Expected model name here.
+DATAFLAG 336 368 "Ic(T1_b)"
+                 ^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(64): Expected model name here.
+DATAFLAG 336 320 "Ib(T1_b)"
+                 ^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(65): Expected model name here.
+DATAFLAG 336 416 "V(v_be_b)"
+                 ^^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(66): Expected model name here.
+DATAFLAG 336 464 "V(v_ce_b)"
+                 ^^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(67): Expected model name here.
+DATAFLAG 1136 368 "Ic(T1_c)"
+                  ^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(68): Expected model name here.
+DATAFLAG 1136 320 "Ib(T1_c)"
+                  ^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(69): Expected model name here.
+DATAFLAG 1136 416 "V(v_be_c)"
+                  ^^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(70): Expected model name here.
+DATAFLAG 1136 464 "V(v_ce_c)"
+                  ^^^^^^^^^^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(71): Expected model name here.
+SYMBOL voltage 64 112 R0
+                        ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(72): Unknown parameter
+WINDOW 123 24 124 Left 2
+                       ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(73): Unknown parameter
+WINDOW 39 0 0 Left 0
+                   ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(74): Expected 2 node names here.
+SYMATTR Value2 AC 1
+                 ^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(75): Expected 2 node names here.
+SYMATTR InstName Vs_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(76): Expected 2 node names here.
+SYMATTR Value 0
+               ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(77): Expected model name here.
+SYMBOL res 112 96 R270
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(78): Unknown parameter
+WINDOW 0 32 56 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(79): Unknown parameter
+WINDOW 3 0 56 VBottom 2
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(80): Expected 2 node names here.
+SYMATTR InstName Rs_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(81): Expected 2 node names here.
+SYMATTR Value 3.9k
+                  ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(82): Expected model name here.
+SYMBOL cap 352 64 R90
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(83): Unknown parameter
+WINDOW 0 0 32 VBottom 2
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(84): Unknown parameter
+WINDOW 3 32 32 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(85): Expected 2 node names here.
+SYMATTR InstName C1_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(86): Expected 2 node names here.
+SYMATTR Value 1µ
+                ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(87): Expected model name here.
+SYMBOL res 384 -48 R0
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(88): Expected 2 node names here.
+SYMATTR InstName Rf_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(89): Expected 2 node names here.
+SYMATTR Value 47k
+                 ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(90): Expected model name here.
+SYMBOL npn 448 32 R0
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(91): Expected 2 node names here.
+SYMATTR InstName T1_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(92): Expected 2 node names here.
+SYMATTR Value BC547B
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(93): Expected model name here.
+SYMBOL res 496 -208 R0
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(94): Expected 2 node names here.
+SYMATTR InstName Rc_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(95): Expected 2 node names here.
+SYMATTR Value 3.9k
+                  ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(96): Expected model name here.
+SYMBOL voltage 480 -240 R90
+                           ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(97): Unknown parameter
+WINDOW 0 -32 56 VBottom 2
+                        ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(98): Unknown parameter
+WINDOW 3 32 56 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(99): Unknown parameter
+WINDOW 123 0 0 Left 0
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(100): Unknown parameter
+WINDOW 39 0 0 Left 0
+                   ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(101): Expected 2 node names here.
+SYMATTR InstName Vcc_b
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(102): Expected 2 node names here.
+SYMATTR Value 5
+               ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(103): Expected model name here.
+SYMBOL cap 672 -64 R90
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(104): Unknown parameter
+WINDOW 0 0 32 VBottom 2
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(105): Unknown parameter
+WINDOW 3 32 32 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(106): Expected 2 node names here.
+SYMATTR InstName C2_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(107): Expected 2 node names here.
+SYMATTR Value 1µ
+                ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(108): Expected model name here.
+SYMBOL res 720 32 R0
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(109): Expected 2 node names here.
+SYMATTR InstName Rl_b
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(110): Expected 2 node names here.
+SYMATTR Value 10k
+                 ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(111): Expected model name here.
+SYMBOL voltage 864 112 R0
+                         ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(112): Unknown parameter
+WINDOW 123 24 124 Left 2
+                       ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(113): Unknown parameter
+WINDOW 39 0 0 Left 0
+                   ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(114): Expected 2 node names here.
+SYMATTR Value2 AC 1
+                 ^^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(115): Expected 2 node names here.
+SYMATTR InstName Vs_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(116): Expected 2 node names here.
+SYMATTR Value 0
+               ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(117): Expected model name here.
+SYMBOL res 912 96 R270
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(118): Unknown parameter
+WINDOW 0 32 56 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(119): Unknown parameter
+WINDOW 3 0 56 VBottom 2
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(120): Expected 2 node names here.
+SYMATTR InstName Rs_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(121): Expected 2 node names here.
+SYMATTR Value 3.9k
+                  ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(122): Expected model name here.
+SYMBOL cap 1152 64 R90
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(123): Unknown parameter
+WINDOW 0 0 32 VBottom 2
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(124): Unknown parameter
+WINDOW 3 32 32 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(125): Expected 2 node names here.
+SYMATTR InstName C1_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(126): Expected 2 node names here.
+SYMATTR Value 1µ
+                ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(127): Expected model name here.
+SYMBOL res 1184 -48 R0
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(128): Expected 2 node names here.
+SYMATTR InstName Rf_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(129): Expected 2 node names here.
+SYMATTR Value 47k
+                 ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(130): Expected model name here.
+SYMBOL npn 1248 32 R0
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(131): Expected 2 node names here.
+SYMATTR InstName T1_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(132): Expected 2 node names here.
+SYMATTR Value BC547C
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(133): Expected model name here.
+SYMBOL res 1296 -208 R0
+                       ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(134): Expected 2 node names here.
+SYMATTR InstName Rc_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(135): Expected 2 node names here.
+SYMATTR Value 3.9k
+                  ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(136): Expected model name here.
+SYMBOL voltage 1280 -240 R90
+                            ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(137): Unknown parameter
+WINDOW 0 -32 56 VBottom 2
+                        ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(138): Unknown parameter
+WINDOW 3 32 56 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(139): Unknown parameter
+WINDOW 123 0 0 Left 0
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(140): Unknown parameter
+WINDOW 39 0 0 Left 0
+                   ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(141): Expected 2 node names here.
+SYMATTR InstName Vcc_c
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(142): Expected 2 node names here.
+SYMATTR Value 5
+               ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(143): Expected model name here.
+SYMBOL cap 1472 -64 R90
+                       ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(144): Unknown parameter
+WINDOW 0 0 32 VBottom 2
+                      ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(145): Unknown parameter
+WINDOW 3 32 32 VTop 2
+                    ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(146): Expected 2 node names here.
+SYMATTR InstName C2_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(147): Expected 2 node names here.
+SYMATTR Value 1µ
+                ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(148): Expected model name here.
+SYMBOL res 1520 32 R0
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(149): Expected 2 node names here.
+SYMATTR InstName Rl_c
+                     ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(150): Expected 2 node names here.
+SYMATTR Value 10k
+                 ^
+C:\Users\Antonio\Downloads\selec\lab1_schematics.asc (1).txt(152): Unknown parameter
+TEXT 64 -96 Left 2 !.ac dec 100 100 1Meg
+                   ^^^^^^^^^^^^^^^^^^^^^
