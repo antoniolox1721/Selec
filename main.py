@@ -31,7 +31,7 @@ GRID_NX = 10
 GRID_NY = 6
 
 # Email - altera para o teu
-EMAIL_ADDRESS = "antonio@example.com"
+EMAIL_ADDRESS = "antoniopedroalves@tecnico.ulisboa.pt"
 
 
 class UOscilloscope:
@@ -221,24 +221,34 @@ class UOscilloscope:
         y = []
 
         vdiv = self.current_fft_vdiv()
-        volts_top = 6.0 * vdiv   # topo da grelha
-        volts_bottom = 0.0
+        volts_top = 6.0 * vdiv
+        # Defensive guard: vdiv should always be positive due to VOLT_SCALES,
+        # so volts_top should never be <= 0. This is just a safeguard.
+        if volts_top <= 0:
+            volts_top = 1.0
+        if volts_top <= 0:
+            volts_top = 1.0
+
+        graph_top = GRID_Y
+        graph_bottom = GRID_Y + GRID_H - 1
 
         for n in range(N_POINTS):
             xp = n
             v = self.last_spectrum[n]
 
+            if v < 0:
+                v = 0.0
             if v > volts_top:
                 v = volts_top
-            if v < volts_bottom:
-                v = volts_bottom
 
-            yp = round((GRID_H - 1) * (volts_top - v) / (volts_top - volts_bottom))
+            # 0 -> fundo
+            # volts_top -> topo
+            yp = round(graph_top + (v / volts_top) * (GRID_H - 1))
 
-            if yp < 0:
-                yp = 0
-            if yp > GRID_H - 1:
-                yp = GRID_H - 1
+            if yp < graph_top:
+                yp = graph_top
+            if yp > graph_bottom:
+                yp = graph_bottom
 
             x.append(xp)
             y.append(yp)
