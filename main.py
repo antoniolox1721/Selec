@@ -204,7 +204,7 @@ class UOscilloscope:
                 v = volts_bottom
 
             # 6 divisões verticais => de +3 div a -3 div
-            yp = round((GRID_H - 1) * (volts_top - v) / (volts_top - volts_bottom))
+            yp = round((GRID_H - 1) * (volts_top + v) / (volts_top - volts_bottom))
 
             if yp < 0:
                 yp = 0
