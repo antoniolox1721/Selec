@@ -14,8 +14,8 @@ DEFAULT_VOLT_INDEX = 2   # 5 V/div
 DEFAULT_TIME_INDEX = 1   # 10 ms/div
 
 # Conversão ADC -> tensão
-ADC_GAIN = 0.00044028
-ADC_OFFSET = 0.091455
+ADC_GAIN = 0.00040235
+ADC_OFFSET = 0.163502
 REFERENCE_INPUT = 1.0
 DIVIDER_FACTOR = 1.0 / 29.3
 
@@ -165,7 +165,7 @@ class UOscilloscope:
             self.tft.Arial16,
             text,
             2,
-            DISPLAY_H - 14,
+            DISPLAY_H - 16,
             self.tft.WHITE,
             self.tft.BLACK
         )
