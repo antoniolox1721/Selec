@@ -30,12 +30,12 @@ fprintf('--------------------------------\n');
 
 % 5. (Opcional) Gerar o gráfico para o relatório
 figure;
-plot(D, Vadc, 'o', 'MarkerSize', 8, 'LineWidth', 1.5); % Pontos medidos
+plot(D, Vadc, 'o', 'MarkerSize', 8, 'LineWidth', 2.5); % Pontos medidos
 hold on;
-plot(D, polyval(p, D), '-', 'LineWidth', 1.5);         % Reta de ajuste
-
+plot(D, polyval(p, D), '-', 'LineWidth', 2.5);         % Reta de ajuste
+set(gca, 'LineWidth', 2, 'FontSize', 12, 'FontWeight', 'bold');
 % Formatação do gráfico
-title('Calibração do ADC');
+title('Calibração do ADC','FontSize', 16);
 xlabel('Valor Digital Lido (D)');
 ylabel('Tensão no ADC (V_{ADC} em Volts)');
 legend('Valores Medidos', 'Reta de Ajuste Linear', 'Location', 'northwest');
